@@ -1,0 +1,49 @@
+@import "./header.css";
+@import "./button.css";
+@import "./button-icon.css";
+@import "./hero.css";
+@import "./wrapper.css";
+
+:root {
+  --fontBase: "Poppins", sans-serif;
+
+  --headline1: bold 95px / 153.71px var(--fontBase);
+  --headline2: bold 59px / 95.46px var(--fontBase);
+  --headline3: bold 48px / 77.66px var(--fontBase);
+  --headline4: bold 34px / 55.01px var(--fontBase);
+  --headline5: bold 24px / 38.83px var(--fontBase);
+
+  --body1: normal 16px / 25.89px var(--fontBase);
+  --body2: normal 14px / 22.65px var(--fontBase);
+
+  --button: bold 14px / 22.65px var(--fontBase);
+
+  --caption: bold 12px / 19.42px var(--fontBase);
+
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: #fff;
+
+  --gradient: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
+  --gradient: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+}
+
+*,
+:root,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+}
