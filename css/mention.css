@@ -1,0 +1,22 @@
+.mention {
+  padding-block-start: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+
+.mention h2 {
+  font: var(--headline5);
+}
+
+.mention p {
+  font: var(--headline5);
+  font-weight: normal;
+}
+
+.mention-row {
+  align-self: center;
+  width: 80px;
+  height: 80px;
+}

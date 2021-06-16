@@ -9,33 +9,32 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Portfolio</title>
   </head>
   <body>
+    <header class="header">
+      <img src="./images/LOGO.png" width="70" height="20" alt="Personal Logo" />
+
+      <nav class="menu">
+        <ul>
+          <li><a class="is-active" href="#main">Hola</a></li>
+          <li><a href="#project">Proyectos</a></li>
+          <li><a href="#contact">Hablemos</a></li>
+        </ul>
+      </nav>
+
+      <button class="button">Curriculum</button>
+    </header>
+
     <div class="wrapper">
-      <header class="header">
-        <img
-          src="./images/LOGO.png"
-          width="70"
-          height="20"
-          alt="Personal Logo"
-        />
-
-        <nav class="menu">
-          <ul>
-            <li><a class="is-active" href="#main">Hola</a></li>
-            <li><a href="#project">Proyectos</a></li>
-            <li><a href="#contact">Hablemos</a></li>
-          </ul>
-        </nav>
-
-        <button class="button">Curriculum</button>
-      </header>
-
       <section class="hero" id="main">
         <div class="hero-image">
-          <img src="./images/user.png" alt="" />
+          <img src="./images/user.png" alt="user photo" />
         </div>
 
         <div class="hero-description">
@@ -54,19 +53,51 @@
             /></a>
 
             <a class="button-icon" href="tel:78451236"
-              ><img src="./icons/icon-important_mail.svg" alt="phone icon"
+              ><img src="./icons/icon-important_mail.svg" alt="mail icon"
             /></a>
 
             <a class="button-icon" href="tel:78451236"
-              ><img src="./icons/icon-instagram.svg" alt="phone icon"
+              ><img src="./icons/icon-instagram.svg" alt="instagram icon"
             /></a>
 
             <a class="button-icon" href="tel:78451236"
-              ><img src="./icons/icon-twitter_squared.svg" alt="phone icon"
+              ><img src="./icons/icon-twitter_squared.svg" alt="twitter icon"
             /></a>
           </div>
           <a href="https://asda.com" class="button">Descargar Curriculum</a>
         </div>
+      </section>
+
+      <section class="mention">
+        <p>
+          A lo largo de mi carrera como Frontend, he tenido el privilegio de
+          trabajar en proyectos retadores e increíbles
+        </p>
+
+        <h2>Aquí hay algunos que me gustaría compartir.</h2>
+        <img
+          class="mention-row"
+          src="./icons/arrow-down.svg"
+          alt="arrow icon"
+        />
+      </section>
+
+      <section class="testimonial">
+        <img
+          class="user-photo"
+          src="./images/leonidas.png"
+          alt="testimonial person photo"
+        />
+
+        <p class="testimonial-content">
+          "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+          meses ".
+        </p>
+
+        <p class="user-info">
+          LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
+        </p>
       </section>
     </div>
   </body>

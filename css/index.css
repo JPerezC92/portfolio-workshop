@@ -4,6 +4,8 @@
 @import "./hero.css";
 @import "./wrapper.css";
 @import "./menu.css";
+@import "./mention.css";
+@import "./testimonial.css";
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -19,7 +21,8 @@
 
   --button: bold 14px / 22.65px var(--fontBase);
 
-  --caption: bold 12px / 19.42px var(--fontBase);
+  --testimonial: bold 16px / 25.89px "Oxygen", sans-serif;
+  --caption: normal 12px / 19.42px var(--fontBase);
 
   --purple: #310a90;
   --green: #42e2b8;
