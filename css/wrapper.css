@@ -4,3 +4,10 @@
   padding-inline-end: 16px;
   margin: auto;
 }
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    padding-inline-start: 13px;
+    padding-inline-end: 13px;
+  }
+} ;

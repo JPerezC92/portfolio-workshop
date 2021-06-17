@@ -15,8 +15,8 @@
 
 .hero-image img {
   vertical-align: middle;
-  width: 338px;
-  height: 330px;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 .hero-social {

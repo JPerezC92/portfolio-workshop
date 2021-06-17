@@ -10,7 +10,7 @@
   padding-inline-start: 24px;
   text-align: center;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .button.is-secondary {

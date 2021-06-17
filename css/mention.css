@@ -1,5 +1,6 @@
 .mention {
-  padding-block-start: 40px;
+  padding-block-start: 55px;
+  padding-block-end: 40px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -15,8 +16,20 @@
   font-weight: normal;
 }
 
-.mention-row {
+.mention-arrow {
   align-self: center;
   width: 80px;
   height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .mention {
+    padding-inline-start: 233px;
+    padding-inline-end: 233px;
+  }
+
+  .mention {
+    padding-block-start: 215px;
+    padding-block-end: 200px;
+  }
 }

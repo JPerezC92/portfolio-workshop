@@ -17,19 +17,26 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header">
-      <img src="./images/LOGO.png" width="70" height="20" alt="Personal Logo" />
+    <div class="header-wrapper">
+      <header class="header">
+        <img
+          src="./images/LOGO.png"
+          width="70"
+          height="20"
+          alt="Personal Logo"
+        />
 
-      <nav class="menu">
-        <ul>
-          <li><a class="is-active" href="#main">Hola</a></li>
-          <li><a href="#project">Proyectos</a></li>
-          <li><a href="#contact">Hablemos</a></li>
-        </ul>
-      </nav>
+        <nav class="menu">
+          <ul>
+            <li><a class="is-active" href="#main">Hola</a></li>
+            <li><a href="#project">Proyectos</a></li>
+            <li><a href="#contact">Hablemos</a></li>
+          </ul>
+        </nav>
 
-      <button class="button">Curriculum</button>
-    </header>
+        <button class="button">Curriculum</button>
+      </header>
+    </div>
 
     <div class="wrapper">
       <section class="hero" id="main">
@@ -76,28 +83,157 @@
 
         <h2>Aquí hay algunos que me gustaría compartir.</h2>
         <img
-          class="mention-row"
+          class="mention-arrow"
           src="./icons/arrow-down.svg"
           alt="arrow icon"
         />
       </section>
 
-      <section class="testimonial">
-        <img
-          class="user-photo"
-          src="./images/leonidas.png"
-          alt="testimonial person photo"
-        />
+      <section class="testimony-wrapper">
+        <div class="testimony">
+          <div class="testimony-data">
+            <div class="testimony-image">
+              <img src="./images/leonidas-website.png" alt="" />
+            </div>
+            <div class="testimony-description">
+              <a
+                class="testimony-title"
+                target="_blank"
+                href="https://leonidasesteban.com"
+                >leonidasesteban.com</a
+              >
+              <p>
+                Accede a más de 120 proyectos que te ayudarán a mejorar tus
+                habilidades como desarrollador Front-End.
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/"
+                class="button is-secondary"
+                >Ver Código</a
+              >
+              <a
+                target="_blank"
+                href="https://leonidasesteban.com"
+                class="button"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
 
-        <p class="testimonial-content">
-          "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
-          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
-          meses ".
-        </p>
+          <section class="testimony-card">
+            <img
+              class="user-photo"
+              src="./images/leonidas.png"
+              alt="testimonial person photo"
+            />
 
-        <p class="user-info">
-          LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
-        </p>
+            <p class="testimonial-content">
+              "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+              desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+              meses ".
+            </p>
+
+            <p class="user-info">
+              LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
+            </p>
+          </section>
+        </div>
+
+        <div class="testimony">
+          <div class="testimony-data">
+            <div class="testimony-image">
+              <img src="./images/marvol.png" alt="" />
+            </div>
+            <div class="testimony-description">
+              <a
+                class="testimony-title"
+                target="_blank"
+                href="https://leonidasesteban.com"
+                >MARVOL</a
+              >
+              <p>
+                Es el sitio oficial de Marvol Entertainment. Explore películas,
+                personajes, cómics, programas de televisión, videos y más
+                oficiales de Marvol.
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/"
+                class="button is-secondary"
+                >Ver Código</a
+              >
+              <a
+                target="_blank"
+                href="https://leonidasesteban.com"
+                class="button"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+
+          <section class="testimony-card">
+            <img
+              class="user-photo"
+              src="./images/jason.png"
+              alt="testimonial person photo"
+            />
+
+            <p class="testimonial-content">
+              "Jaume ha superado mis expectativas desde el diseño hasta el
+              desarrollo".
+            </p>
+
+            <p class="user-info">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+          </section>
+        </div>
+
+        <div class="testimony">
+          <div class="testimony-data">
+            <div class="testimony-image">
+              <img src="./images/netnet.png" alt="" />
+            </div>
+            <div class="testimony-description">
+              <a
+                class="testimony-title"
+                target="_blank"
+                href="https://leonidasesteban.com"
+                >NETNET</a
+              >
+              <p>
+                Películas y series ilimitadas y mucho más. Disfruta donde
+                quieras. Cancela cuando quieras.
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/"
+                class="button is-secondary"
+                >Ver Código</a
+              >
+              <a
+                target="_blank"
+                href="https://leonidasesteban.com"
+                class="button"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+
+          <section class="testimony-card">
+            <img
+              class="user-photo"
+              src="./images/marco.png"
+              alt="testimonial person photo"
+            />
+
+            <p class="testimonial-content">
+              "Por primera vez en la historia de nuestra empresa, aparecimos en
+              todas las plataformas en las que trabajamos".
+            </p>
+
+            <p class="user-info">MARCO CORTEZ / NETNET</p>
+          </section>
+        </div>
       </section>
     </div>
   </body>
