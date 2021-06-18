@@ -1,6 +1,6 @@
 .mention {
   padding-block-start: 55px;
-  padding-block-end: 40px;
+  /* padding-block-end: 40px; */
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -24,12 +24,7 @@
 
 @media screen and (min-width: 768px) {
   .mention {
-    padding-inline-start: 233px;
-    padding-inline-end: 233px;
-  }
-
-  .mention {
     padding-block-start: 215px;
-    padding-block-end: 200px;
+    padding-block-end: 160px;
   }
 }

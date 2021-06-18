@@ -5,9 +5,12 @@
 @import "./wrapper.css";
 @import "./menu.css";
 @import "./mention.css";
+@import "./project.css";
 @import "./testimony.css";
 @import "./social.css";
 @import "./footer.css";
+@import "./form.css";
+@import "./title.css";
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -21,9 +24,10 @@
   --body1: normal 16px / 25.89px var(--fontBase);
   --body2: normal 14px / 22.65px var(--fontBase);
 
+  --label: 700 16px / 25.89px var(--fontBase);
   --button: bold 14px / 22.65px var(--fontBase);
 
-  --testimonial: bold 16px / 25.89px "Oxygen", sans-serif;
+  --testimony: bold 16px / 25.89px "Oxygen", sans-serif;
   --caption: normal 12px / 19.42px var(--fontBase);
 
   --purple: #310a90;

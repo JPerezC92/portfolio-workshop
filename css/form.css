@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-inline: auto;
+  max-inline-size: 543px;
+  padding-block: 40px;
+  padding-block-end: 80px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  padding-inline: 16px;
+  font: var(--label);
+}
+
+.form-group input,
+.form-group textarea {
+  background: var(--white);
+  border: 1px solid #858c94;
+  padding-inline: 16px;
+  padding-block: 12px;
+  border-radius: 8px;
+  font: var(--body1);
+}
+
+.form-group textarea {
+  resize: none;
+  block-size: 134px;
+}
+
+.form p {
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .form .title {
+    align-self: stretch;
+  }
+
+  .form p {
+    text-align: center;
+  }
+}
